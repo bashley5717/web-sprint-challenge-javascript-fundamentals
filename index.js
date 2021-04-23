@@ -121,18 +121,18 @@ const zooAnimals = [
 function add(a,b){
     cb => a + b;
   }
-console.log(add(2,4));
+
 // 🦁🦁🦁 Use multiply to return the product of two numbers 🦁🦁🦁
   
 function multiply(a,b){
    cb => a * b;
   }
-  console.log(multiply(a,b))
+  
 
  // 🦁🦁🦁 Use greeting to accept a first and last name and return "Hello {first-name} {last-name}, nice to meet you!" 🦁🦁🦁
   
-function greeting(/*Your Code Here */){
-   return /*Your Code Here */
+function greeting(first,last){
+   return `Hello ${this.first} ${this.last}, nice to meet you!`
   }
   
   // 🦁🦁🦁 Step 3: Check your work by un-commenting the following calls to consume(): 🦁🦁🦁 
