@@ -15,10 +15,9 @@ function myFunction() {
 }
 myFunction();
 
-//🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
+//🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: because of the scope and closure. Since the variable internal was created inside of myFunction it is able to be used in nestedFunction.
 
 
-/*/
 
 
 /* 🚀🚀🚀 Task 2: Counter 🚀🚀🚀 */
@@ -28,8 +27,11 @@ myFunction();
     
 For example, `summation(4)` should return 10 because 1+2+3+4 is 10. Note, you may use a for loop for this function if you wish */
 
-function summation(/*Your Code Here*/) {
-  /*Your Code Here*/
+function summation(num) {
+  count = 0;
+  for (let i = 0; i < num.length; i++){
+    console.log(count = count + num[i];)
+  }
 
   }
  
@@ -56,8 +58,10 @@ const zooAnimals = [
   displayNames will be an array of strings, and each string should follow this pattern: "name: {name}, scientific: {scientific name}"
   */
 
-  function animalNames(/*Your Code Here*/){
-    /*Your Code Here*/
+  function animalNames(array,item,index){
+    array.forEach(item[index]){
+      return array.unshift(item[index])
+    }
   }
   
 
@@ -67,8 +71,8 @@ const zooAnimals = [
   For example: ['jackal, asiatic', .....]
   */
 
-  function lowerCaseNames(/*Your Code Here*/){
-    /*Your Code Here*/
+  function lowerCaseNames(array,item,index){
+    return item.index.toLowerCase();
   }
   
   
@@ -77,8 +81,10 @@ const zooAnimals = [
   Using lowPopulationAnimals use .filter() to create a new array of objects which contains only the animals with a population of less than 5.
   */
 
-  function lowPopulationAnimals(/*Your Code Here*/){
-    /*Your Code Here*/
+  function lowPopulationAnimals(array,item,population){
+    array.filter(){
+      return item.population < 5;
+    }
   }
   
 
